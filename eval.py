@@ -2,7 +2,7 @@ import numpy as np
 import argparse
 import matplotlib.pyplot as plt
 import seaborn as sns
- 
+np.float = np.float64
 
 def read_file(path):
     with open(path, 'r') as f:
